@@ -1,0 +1,6 @@
+F:\PROJECTS\BestPresent\Quan\bin\Debug\Quan.exe.config
+F:\PROJECTS\BestPresent\Quan\bin\Debug\Quan.exe
+F:\PROJECTS\BestPresent\Quan\bin\Debug\Quan.pdb
+F:\PROJECTS\BestPresent\Quan\obj\Debug\Quan.csproj.Quan.exe.config
+F:\PROJECTS\BestPresent\Quan\obj\Debug\Quan.exe
+F:\PROJECTS\BestPresent\Quan\obj\Debug\Quan.pdb
