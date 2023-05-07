@@ -5,3 +5,16 @@ F:\PROJECTS\BestPresent\Quan\bin\Debug\Quan.exe
 F:\PROJECTS\BestPresent\Quan\bin\Debug\Quan.pdb
 F:\PROJECTS\BestPresent\Quan\obj\Debug\AdvancedProgramming.csproj.Quan.exe.config
 F:\PROJECTS\BestPresent\Quan\obj\Debug\AdvancedProgramming.csprojResolveAssemblyReference.cache
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\bin\Debug\Quan.exe.config
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\bin\Debug\Quan.exe
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\bin\Debug\Quan.pdb
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\bin\Debug\System.Memory.dll
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\bin\Debug\System.Numerics.Vectors.dll
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\bin\Debug\System.Buffers.dll
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\obj\Debug\AdvancedProgramming.csproj.AssemblyReference.cache
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\obj\Debug\AdvancedProgramming.csproj.SuggestedBindingRedirects.cache
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\obj\Debug\AdvancedProgramming.csproj.CoreCompileInputs.cache
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\obj\Debug\AdvancedProgramming.csproj.CopyComplete
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\obj\Debug\Quan.exe
+D:\GitHubRepo\CSharp_Assignment2\StudentManagement\obj\Debug\Quan.pdb

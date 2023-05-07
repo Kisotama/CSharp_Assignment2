@@ -66,7 +66,7 @@ namespace Quan
             string h3 = " ║------------------oOo-------------------║";
             string h4 = " ║    AUTHOR:Tran Nguyen Dong Quan        ║";
             string h5 = " ║    ASSESMENT: Advanced Programing      ║";
-            string h6 = " ║---------- BRIDGE DESIGN PARTTEN -------║";
+            string h6 = " ║--------- BRIDGE DESIGN PARTTEN --------║";
             string h7 = " ╚════════════════════════════════════════╝";
             string header = h1 + "\n" + h2 + "\n" + h3 + "\n" + h4 + "\n" + h5 + "\n" + h6 + "\n" + h7 + "\n";
             Console.WriteLine(header);

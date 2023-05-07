@@ -15,11 +15,11 @@ namespace Quan
         public COLE()
         {
             ld00 = new DOLE_MYSQL();
-            ld00.p_database = "studentattendant";
+            ld00.p_database = "quan";
             ld00.p_server = "127.0.0.1";
             ld00.p_uid = "root";
             ld00.p_port = "3306";
-            ld00.p_password = "haminhquan";
+            ld00.p_password = "Cesarevistol1!";
             ld00.Initialize();
 
         }
