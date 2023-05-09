@@ -316,7 +316,7 @@ namespace Quan.DesignPartten_Classes
             int order = 0;
             foreach (DataRow dr in _dsAttend.Rows)
             {
-                _activities[order++] = dr["course_id"].ToString() + " " + dr["coursename"].ToString() + " " + dr["student_id"].ToString() + " " + dr["studentname"].ToString() + " " + dr["teacher_id"].ToString() + " " + dr["teachername"].ToString();
+                _activities[order++] = dr["course_id"].ToString() + " " + dr["coursename"].ToString() + " " + " Student " + dr["studentname"].ToString() + " "+ " ID:"+dr["student_id"].ToString() + " " +  " Teacher " + dr["teachername"].ToString() + " ID:" +dr["teacher_id"].ToString() + " ";
             }
             int Height = _activities.Length;
 

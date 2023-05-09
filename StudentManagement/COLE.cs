@@ -85,7 +85,7 @@ namespace Quan
             }
             mysql = "Delete from attendant where course_id='" + courseid + "'";
             ld00._RunQuery(mysql);
-            mysql = "Delete from course where teacher_id='" + courseid+ "'";
+            mysql = "Delete from course where course_id='" + courseid+ "'";
             ld00._RunQuery(mysql);
             ld00.CloseConnection();
 
@@ -180,14 +180,20 @@ namespace Quan
             DataTable dt = ld00._RunQuery(mysql);
             if (dt.Rows.Count > 0)
             {
-                string _teacherid = dt.Rows[0]["teacher_id"].ToString();
-                mysql = "Select * from attendant where course_id='" + _courseid + "' and student_id='" + _studentid + "'";
-                dt = ld00._RunQuery(mysql);
-                if (dt.Rows.Count == 0)
+                string teacherid = dt.Rows[0]["teacher_id"].ToString();
+                string studentid = dt.Rows[0]["student_id"].ToString();
+                if (studentid != _studentid)
                 {
-                    mysql = "UPDATE attendant SET student_id= '" + _studentid + "' WHERE course_id='" + _courseid + "' and teacher_id='" + _teacherid + "'";
+                    mysql = "insert into attendant(student_id,teacher_id,course_id) values('" + _studentid + "','" + teacherid + "','" + _courseid + "')";
                     ld00._RunQuery(mysql);
                 }
+                //mysql = "Select * from attendant where course_id='" + _courseid + "' and student_id='" + _studentid + "'";
+                //dt = ld00._RunQuery(mysql);
+                //if (dt.Rows.Count == 0)
+                //{
+                //    mysql = "UPDATE attendant SET student_id= '" + _studentid + "' WHERE course_id='" + _courseid + "' and teacher_id='" + teacherid + "'";
+                //    ld00._RunQuery(mysql);
+                //}
             }
             ld00.CloseConnection();
         }
